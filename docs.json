@@ -1,103 +1,85 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "MyLang Reader",
+  "description": "Transform any content into an immersive language learning experience",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
-  },
-  "favicon": "/favicon.svg",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
+    "primary": "#0ea5e9",
+    "light": "#06b6d4",
+    "dark": "#0891b2",
+    "anchors": {
+      "from": "#0ea5e9",
+      "to": "#06b6d4"
     }
   },
+  "favicon": "/favicon.svg",
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
+  },
+  "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "MyLang Reader",
+          "icon": "book-open-cover",
+          "href": "https://www.mylangreader.com"
+        },
+        {
+          "anchor": "Contact Support",
+          "icon": "envelope",
+          "href": "mailto:contact@mylangreader.com"
+        }
+      ]
+    },
+    "groups": [
+      {
+        "group": "Get Started",
+        "pages": [
+          "index",
+          "quickstart",
+          "import-guide"
+        ]
+      },
+      {
+        "group": "Core Features",
+        "pages": [
+          "guide/readerclient",
+          "guide/vocabulary",
+          "guide/practice",
+          "guide/library"
+        ]
+      },
+      {
+        "group": "Advanced Features",
+        "pages": [
+          "features/vocabulary-packs",
+          "features/news",
+          "features/account"
+        ]
+      },
+      {
+        "group": "How-To Guides",
+        "pages": [
+          "tutorials/importing-content",
+          "tutorials/using-reader-features",
+          "tutorials/building-vocabulary",
+          "tutorials/practice-sessions"
+        ]
+      }
+    ]
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:contact@mylangreader.com"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Open App",
+      "href": "https://www.mylangreader.com"
     }
   },
   "contextual": {
@@ -112,11 +94,15 @@
      "vscode"
    ]
   },
+  "seo": {
+    "indexing": "navigable"
+  },
+  "search": {
+    "prompt": "Search MyLang Reader documentation..."
+  },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "website": "https://www.mylangreader.com"
     }
   }
 }

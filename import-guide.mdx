@@ -1,0 +1,286 @@
+---
+title: 'Import Guide'
+description: 'Learn how to import different types of content into MyLang Reader'
+---
+
+## Overview
+
+MyLang Reader supports importing content from multiple sources to create your personalized reading library. This guide covers all import methods and best practices.
+
+## Import Methods
+
+### 1. Web Articles and URLs
+
+Import any web article by URL for instant reading:
+
+<Steps>
+  <Step title="Copy the URL">
+    Copy the full URL of any article, blog post, or web page
+  </Step>
+  <Step title="Open Import Dialog">
+    Click the **+ Import** button in MyLang Reader
+  </Step>
+  <Step title="Select URL Import">
+    Choose **"Import from URL"** option
+  </Step>
+  <Step title="Paste and Import">
+    Paste the URL and click **"Import"**
+  </Step>
+</Steps>
+
+**Supported Sites**: Most news sites, blogs, Wikipedia, Medium, Substack, and more.
+
+<Warning>
+Some sites with paywalls or heavy JavaScript may not import correctly. We're continuously improving compatibility.
+</Warning>
+
+### 2. File Upload
+
+Upload documents directly from your device:
+
+#### Supported File Types
+
+<Tabs>
+  <Tab title="PDF Files">
+    - **Best for**: Articles, research papers, books
+    - **Text extraction**: Automatic OCR for scanned PDFs
+    - **Languages**: All supported languages
+    - **Max size**: 50MB
+  </Tab>
+  <Tab title="ePub Books">
+    - **Best for**: Digital books and novels
+    - **Chapter navigation**: Automatic chapter detection
+    - **Formatting**: Preserves most formatting
+    - **Max size**: 25MB
+  </Tab>
+  <Tab title="Word Documents">
+    - **Supported**: .docx files only
+    - **Best for**: Articles, essays, documents
+    - **Formatting**: Basic formatting preserved
+    - **Max size**: 10MB
+  </Tab>
+  <Tab title="Text Files">
+    - **Supported**: .txt files
+    - **Best for**: Plain text content
+    - **Encoding**: UTF-8 recommended
+    - **Max size**: 5MB
+  </Tab>
+</Tabs>
+
+#### Upload Process
+
+<Steps>
+  <Step title="Choose File Upload">
+    Click **+ Import** → **"Upload File"**
+  </Step>
+  <Step title="Select File">
+    Browse and select your file from device storage
+  </Step>
+  <Step title="Set Language">
+    Choose the source language (auto-detected when possible)
+  </Step>
+  <Step title="Process File">
+    Wait for text extraction and processing (30 seconds - 3 minutes)
+  </Step>
+</Steps>
+
+### 3. YouTube Videos
+
+Transform YouTube videos into readable transcripts:
+
+<Info>
+YouTube import requires videos to have subtitles (auto-generated or manual). Premium users get enhanced subtitle processing.
+</Info>
+
+<Steps>
+  <Step title="Copy YouTube URL">
+    Copy the full YouTube video URL
+  </Step>
+  <Step title="Import Video">
+    Click **+ Import** → **"Import from URL"** and paste the YouTube URL
+  </Step>
+  <Step title="Select Subtitle Language">
+    Choose the subtitle language you want to learn from
+  </Step>
+  <Step title="Process Subtitles">
+    Wait for subtitle extraction and processing
+  </Step>
+</Steps>
+
+**Features**:
+- Synchronized text highlighting with video playback
+- Word-by-word translations in subtitle context
+- Ability to practice vocabulary from video content
+
+### 4. Plain Text Import
+
+For quick text input without files:
+
+<Steps>
+  <Step title="Copy Your Text">
+    Copy text from any source (emails, messages, documents)
+  </Step>
+  <Step title="Open Text Import">
+    Click **+ Import** → **"Paste Text"**
+  </Step>
+  <Step title="Paste Content">
+    Paste your text into the text area
+  </Step>
+  <Step title="Set Language and Title">
+    Choose source language and add a title for organization
+  </Step>
+</Steps>
+
+### 5. News Feed Integration
+
+Browse and import from curated news sources:
+
+<Steps>
+  <Step title="Access News Feed">
+    Go to the **News** section in navigation
+  </Step>
+  <Step title="Filter Content">
+    Filter by language, category, or source
+  </Step>
+  <Step title="Select Article">
+    Click any article to automatically import it
+  </Step>
+  <Step title="Start Reading">
+    Article opens directly in the reader
+  </Step>
+</Steps>
+
+## Import Best Practices
+
+### Content Selection
+
+<CardGroup cols={2}>
+  <Card title="Choose Appropriate Level" icon="chart-line">
+    Start with content where you understand 70-80% of words for optimal learning
+  </Card>
+  <Card title="Variety is Key" icon="shuffle">
+    Mix different content types: news, stories, academic texts for diverse vocabulary
+  </Card>
+  <Card title="Regular Updates" icon="refresh">
+    Import fresh content regularly to maintain engagement and learn current language
+  </Card>
+  <Card title="Quality Over Quantity" icon="star">
+    Better to deeply study fewer articles than skim many
+  </Card>
+</CardGroup>
+
+### Technical Tips
+
+<AccordionGroup>
+  <Accordion title="Optimizing PDF Import">
+    - Use text-based PDFs rather than scanned images when possible
+    - Ensure good image quality for scanned documents
+    - Single-column layouts work better than multi-column
+    - Remove excessive headers/footers if possible
+  </Accordion>
+
+  <Accordion title="Web Content Tips">
+    - Use direct article URLs rather than homepage links
+    - Avoid URLs with redirects or tracking parameters
+    - Reader mode URLs often work better (e.g., Firefox Reader View)
+    - Some sites work better with mobile URLs
+  </Accordion>
+
+  <Accordion title="Video Content Selection">
+    - Choose videos with clear, well-paced speech
+    - Educational content often has better subtitles
+    - Avoid videos with background music or noise
+    - Shorter videos (5-20 minutes) are ideal for language learning
+  </Accordion>
+</AccordionGroup>
+
+## Troubleshooting Import Issues
+
+### Common Problems and Solutions
+
+<Tabs>
+  <Tab title="Import Fails">
+    **Possible Causes**:
+    - URL is not accessible
+    - File is corrupted or unsupported format
+    - Internet connection issues
+
+    **Solutions**:
+    - Try a different URL or file
+    - Check file format and size limits
+    - Refresh page and try again
+  </Tab>
+  <Tab title="Text Not Extracting">
+    **Possible Causes**:
+    - PDF is image-based/scanned
+    - File encoding issues
+    - Complex formatting
+
+    **Solutions**:
+    - Try OCR-enabled PDF tools first
+    - Save as plain text and re-import
+    - Break large files into smaller sections
+  </Tab>
+  <Tab title="Wrong Language Detected">
+    **Possible Causes**:
+    - Mixed language content
+    - Short text samples
+    - Similar language scripts
+
+    **Solutions**:
+    - Manually select correct language
+    - Add language hints in title
+    - Import longer text samples
+  </Tab>
+</Tabs>
+
+## Import Limits
+
+### Free Plan Limits
+
+- **Files**: Up to 100 saved items in library
+- **Size**: Individual file size limits as noted above
+- **Processing**: Standard processing speed
+
+### Premium Plan Benefits
+
+- **Unlimited library storage**
+- **Priority processing** (faster import times)
+- **Enhanced subtitle processing** for YouTube
+- **Bulk import tools** (coming soon)
+
+## Organization Tips
+
+After importing content, organize it effectively:
+
+<Tips>
+  <Tip>
+    **Use descriptive titles** when importing to make content easy to find later
+  </Tip>
+  <Tip>
+    **Tag content by difficulty level** in your personal notes for easy filtering
+  </Tip>
+  <Tip>
+    **Group related content** by theme, source, or learning goal
+  </Tip>
+  <Tip>
+    **Regular cleanup** - remove content you no longer need to stay organized
+  </Tip>
+</Tips>
+
+## Next Steps
+
+<CardGroup cols={2}>
+  <Card title="Start Reading" icon="book-open" href="/guide/readerclient">
+    Learn how to use the reader interface effectively
+  </Card>
+  <Card title="Build Vocabulary" icon="brain" href="/guide/vocabulary">
+    Discover how to track and learn new words
+  </Card>
+</CardGroup>
+
+---
+
+<Note>
+Import capabilities are continuously expanding. Have a content type you'd like to see supported? Contact us at [contact@mylangreader.com](mailto:contact@mylangreader.com)
+</Note>
