@@ -38,13 +38,21 @@
       },
       {
         "group": "Core Features",
+        "hidden": true,
         "pages": [
           "features/reader",
           "features/vocabulary",
           "features/library",
-          "features/practice",
-          "features/vocabulary-packs",
-          "features/news"
+          "features/practice"
+        ]
+      },
+      {
+        "group": "Discover Content",
+        "hidden": true,
+        "pages": [
+          "features/feed",
+          "features/roadmaps",
+          "features/vocabulary-packs"
         ]
       },
       {
