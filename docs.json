@@ -33,8 +33,7 @@
         "group": "Get Started",
         "pages": [
           "index",
-          "quickstart",
-          "import-guide"
+          "quickstart"
         ]
       },
       {
@@ -42,25 +41,16 @@
         "pages": [
           "guide/readerclient",
           "guide/vocabulary",
+          "guide/library",
           "guide/practice",
-          "guide/library"
-        ]
-      },
-      {
-        "group": "Advanced Features",
-        "pages": [
           "features/vocabulary-packs",
-          "features/news",
-          "features/account"
+          "features/news"
         ]
       },
       {
-        "group": "How-To Guides",
+        "group": "Help",
         "pages": [
-          "tutorials/importing-content",
-          "tutorials/using-reader-features",
-          "tutorials/building-vocabulary",
-          "tutorials/practice-sessions"
+          "help/languages"
         ]
       }
     ]
