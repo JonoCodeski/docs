@@ -39,10 +39,10 @@
       {
         "group": "Core Features",
         "pages": [
-          "guide/readerclient",
-          "guide/vocabulary",
-          "guide/library",
-          "guide/practice",
+          "features/reader",
+          "features/vocabulary",
+          "features/library",
+          "features/practice",
           "features/vocabulary-packs",
           "features/news"
         ]
